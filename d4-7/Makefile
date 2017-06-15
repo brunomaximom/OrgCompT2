@@ -63,7 +63,7 @@ CMD_SRC_LIST = $(D4_SRC)/cmdmain.c $(D4_SRC)/cmdargs.c $(D4_SRC)/tracein.c \
 	$(D4_SRC)/pixie32fmt.c $(D4_SRC)/pixie64fmt.c
 CUSTOM_NAME = d4custom # this is really just a placeholder
 
-CC = clang
+CC = cc
 DEBUG=-DNDEBUG
 CFLAGS = -O3 -g -Wall -Wcast-qual -Wshadow -Wpointer-arith -Wmissing-prototypes $(DEBUG) -I$(D4_SRC)
 LDFLAGS = 
